@@ -20,10 +20,6 @@ export class Order {
     this.cart.clear();
   }
 
-  sendMessage(message: string): void {
-    console.log('message sended', message);
-  }
-
   saveOrder(): void {
     console.log('your request was saved');
   }
